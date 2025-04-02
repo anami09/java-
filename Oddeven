@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class even_odd {
+
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            int n = sc.nextInt();
+            /* suppose n is 4 it will convert in binary which is 100 and 1 that means 001 so when
+                perform or operation it will become 101 that is 5 if 5> 4 so it's even */
+            if ((n | 1) > n) System.out.print("even");
+            else {
+                System.out.print("odd");
+            }
+
+        }
+        }
